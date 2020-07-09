@@ -16,27 +16,6 @@ import com.hotelmgmt.service.BookingDetailsService;
 import com.hotelmgmt.service.RoomService;
 import com.hotelmgmt.util.RoomType;
 
-/*
- * 
-1. Create entity for storage of customer and room as above -- done
-2. Design and implement an entity for persisting booking details -- done
-a. Details to persist for a booking are - Booking id, customer reference for the
-reservation, reservation start date, reservation end date, room reference for the
-reservation
-3. Develop the create operation for a booking through REST API as follows:
-a. POST request /api/booking to create a booking by accepting customer id, room
-id, reservation start date, reservation end date as JSON in the POST body.
-i. Should return HTTP response 201 for successful creation
-ii. Should return HTTP response 400 (bad request) when
-1. The room is unavailable for the mentioned period
-2. The reservation end date precedes reservation start date
-
-password does not fit the criteria or user name already exists
-iii. Should return HTTP response 404 (not found) when the customer id or
-room id are unavailable
-
- */
-
 /**
  * HotelMgmtSystemApplication is the Starting point of Spring Boot Application
  * 
