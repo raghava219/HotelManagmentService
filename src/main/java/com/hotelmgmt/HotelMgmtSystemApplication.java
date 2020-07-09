@@ -61,7 +61,7 @@ public class HotelMgmtSystemApplication implements CommandLineRunner {
 		SpringApplication.run(HotelMgmtSystemApplication.class, args);
 	}
 
-	// Below method is for Test Data creation.
+	// Below method is for Initial Data creation.
 	@Override
 	public void run(String... args) throws Exception {
 
